@@ -28,16 +28,16 @@ def dashboard(request):
                'user':current_user}
 
     return render(request, 'accounts/dashboard.html',context=Context)
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def product(request):
     products = Product.objects.all()
     tag = Tag.objects.all()
     context = {"Products":products,"Tag":tag}
     
     return render(request, 'accounts/product.html',context)
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def customer(request,pkey):
     certain_customer = Customer.objects.get(id=pkey)
     customer_orders = certain_customer.order_set.all()
@@ -51,14 +51,14 @@ def customer(request,pkey):
                
     
     return render(request, 'accounts/customer.html',context=Context)
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def all_customers(request):
     all_customers = Customer.objects.all()
     context = {"customers":all_customers}
     return render(request,'accounts/all_customers.html',context)
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def CreateCustomer(request):
 
     form = CustomerForm(request.POST)
@@ -67,8 +67,8 @@ def CreateCustomer(request):
         return redirect('/')
     context = {"form":form}
     return render(request,'accounts/create_customer.html',context=context)
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def CreateOrder(request,pk):
     customer_id = Customer.objects.get(id=pk)
     OrderFormSet = inlineformset_factory(Customer,Order,fields=('product','status')
@@ -83,7 +83,6 @@ def CreateOrder(request,pk):
     return render(request,'accounts/create_order.html',context)
 
 @login_required(login_url='login')
-
 def DeleteOrder(request,pk):
   order_id = Order.objects.get(id=pk)
   if request.method=="POST":
@@ -91,8 +90,8 @@ def DeleteOrder(request,pk):
       return redirect('/')
   context = {"item":order_id}
   return render(request,'accounts/delete_order.html',context)
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def DeleteCustomer(request,pk):
     customer = Customer.objects.get(id=pk)
     if request.method=="POST":
@@ -102,7 +101,6 @@ def DeleteCustomer(request,pk):
     return render(request,'accounts/delete_customer.html',context)
     
 @login_required(login_url='login')
-
 def UpdateCustomer(request,pk):
     customer_data = Customer.objects.get(id=pk)
     form = CustomerForm(instance=customer_data)
@@ -167,8 +165,8 @@ def logoutpage(request):
         pass
         return redirect('/')
     return redirect('login')
-@login_required(login_url='login')
 
+@login_required(login_url='login')
 def forgotpassword(request,user_id):
     all_users = User.objects.all()
     user = User.objects.get(id=user_id)
