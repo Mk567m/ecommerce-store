@@ -1,0 +1,23 @@
+{%extends 'accounts/base.html'%}
+
+{%block content%}
+<title>Forgot password Form</title>
+
+<form method="post">
+  {% csrf_token %}
+<div class="row">
+   <div class="col-md-5">
+        <div class="card card-body">
+          <p align="center">Hello {{user}}</p>
+          
+          <div>
+            {{form.as_p}}
+          </div>
+
+          <button class="btn btn-success" type="submit">Save Changes</button>
+        </div>
+    </div>
+</div>
+
+</form>
+{%endblock%}

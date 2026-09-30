@@ -1,0 +1,27 @@
+{%extends 'accounts/base.html'%}
+{%block content%}
+<title>Create Order</title>
+
+<form action="" method="post">
+{% csrf_token %}
+<div align="center" >
+<div class="row-center" >
+   <div class="col-md-4">
+        <div class="card card-body">
+          {{formset.management_form}}
+          {% for form in formset %}
+          
+          {{form}}
+          <br>
+          <hr>
+          {% endfor %}
+          <button type="submit" class="btn btn-outline-success">Submit</button>
+
+        </div>
+    </div>
+</div>
+
+
+</div>
+</form>
+{% endblock %}

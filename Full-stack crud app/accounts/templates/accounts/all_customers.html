@@ -1,0 +1,45 @@
+{%extends 'accounts/base.html' %}
+{%block content%}
+
+<title>All Customers page</title>
+<h1>All Customers</h1>
+
+<div class="row">
+  <div class="col">
+    <div class="card card-body">
+      <form method="get">
+        <input class="form-control" placeholder="Search your orders" type="text" width="250px" height="100px" name="search">
+        <br>
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+
+
+		<br>
+<div class="row">
+			<div class="col-md">
+				<div class="card card-body">
+					<h5>Customers</h5>
+				</div>
+				<div class="card card-body">
+					<table class="table">
+						<tr>
+							<th>Name</th>
+							<th>Email</th>
+              <th>Phone number</th>
+							<th>Joined date</th>
+						</tr>
+            
+						 {% for customer in customers %}
+        <tr>
+          <td>{{customer.name}}</td>
+          <td>{{customer.email}}</td>
+          <td>{{customer.phone}}</td>
+          <td>{{customer.date_created}}</td>
+
+             {%endfor%}
+					</table>
+				</div>
+			</div>
+			
+		</div>
+{% endblock %}   

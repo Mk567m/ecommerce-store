@@ -1,0 +1,33 @@
+{% load static %}
+
+
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="{%static 'images/logo.png'%}" height="140" width="180">
+
+  <hr>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <h4><a class="nav-link" href="{% url 'home' %}">Dashboard</a></h4>
+      </li>
+
+      <li class="nav-item">
+        <h4><a class="nav-link" href="{% url 'product' %}">Products</a></h4>
+
+      </li>
+
+      <li>
+              <span id="greet-user" align="right">Welcome back, {{request.user.username}}!</span>
+
+      </li>
+      <div id="logout-container">
+        <a id="logout" href="{%url 'logout'%}">LOGOUT</a>
+      </div>
+    </ul>
+
+  </div>
+</nav>
+<br>

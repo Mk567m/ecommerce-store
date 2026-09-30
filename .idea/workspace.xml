@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d33d402e-a9c4-4b38-982d-66fbe2791e27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Intro-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/fakeEmployee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/fakeStudent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0002_employee_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0003_employee_job_remove_student_model_department_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0004_department_student_model_department.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0005_alter_student_id_id_alter_student_id_studentid_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0006_marks_student_marks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0007_rename_marks_marks_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0008_subjects_remove_student_marks_std_marks_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0009_student_marks_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0010_remove_student_marks_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0011_alter_student_model_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0012_alter_student_model_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0013_alter_student_id_unique_together_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0014_alter_student_id_unique_together.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0015_alter_student_id_unique_together.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0016_alter_student_marks_unique_together.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0017_alter_student_marks_unique_together.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/0018_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/images/81murmTdjAL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/images/81murmTdjAL_Ot8H9eu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/images/Intro-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/images/OIP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/paginate_students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/see_marks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/templates/home/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Student/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/contacts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/1736600100326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/1736600100326_8BryrXm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/1d5166cfb480c7834c7ce065ab5b5fca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/328754e76da008b39e96413779299778.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/44a6ec9573a0d89b900baba520cfed34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/44a6ec9573a0d89b900baba520cfed34_609QdM8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/44a6ec9573a0d89b900baba520cfed34_rBRuvBB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/44a6ec9573a0d89b900baba520cfed34_wSDrcnE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/514cdcd259270bbca1ed49ef197a3e00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/6f4310847f3ad88182aaa0f14112c44c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/6f4310847f3ad88182aaa0f14112c44c_QDioCdP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/81murmTdjAL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/81murmTdjAL_Yf4Ux7t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/8848431d196eed6baf1649f7429705eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/8848431d196eed6baf1649f7429705eb_2WWaemF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/IMG_20241106_161235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/IMG_20241125_150241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/IMG_20241208_215728.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/IMG_20241212_160138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/IMG_8352.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/IMG_8352_FOKTQBf.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/Intro-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/Nvidia-GTX-1660-Super-GPU.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/Nvidia-GTX-1660-Super-GPU_1J42fKq.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/Nvidia-GTX-1660-Super-GPU_1hCdLH8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/Thumbnail-20250131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/battlefield-1-they-shall-not-pass-4k-uu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/cec79736e3e4f7ed52060ca4e46ae3c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/13th-gen-intel-core-processor-key-visual.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/13th-gen-intel-core-processor-key-visual_4iUSgqy.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/13th-gen-intel-core-processor-key-visual_rrKcW2Z.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/1736600100326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/17939087.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/2e49a383a5cbd5212c246a00a8d2a1a7.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/328754e76da008b39e96413779299778.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/514cdcd259270bbca1ed49ef197a3e00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/5277917.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/6f4310847f3ad88182aaa0f14112c44c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_7HtsE7b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_JWXqRnS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_MEMNcSE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_O3Y3Ue9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_Tjqpc7k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_ffCNC3P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_r5dAYmB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/81murmTdjAL_wnBCgP0_uQbg4jw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/8848431d196eed6baf1649f7429705eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Abid.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Abid_Invu0vV.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Abid_Mm6xv32.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_20241125_150241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_20241125_150241_4nmpDsW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_8352.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_8352_521oERR.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_8352_AD6oIRB.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_8352_Xpfgr5e.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_8352_aniAO8W.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/IMG_8352_frmmMdr.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intel-9th-Gen-Core-2-Custom-2060x1317.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intel-9th-Gen-Core-2-Custom-2060x1317_PECAW5i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intel-9th-Gen-Core-2-Custom-2060x1317_w2BqHHZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intel-9th-Gen-Core-2-Custom-2060x1317_x6v7Q63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intro-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intro-1_83x9k3q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intro-1_8PofobP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intro-1_BZhNtgo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intro-1_IawPNiQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Intro-1_u5qSU6L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Nvidia-GTX-1660-Super-GPU.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Nvidia-GTX-1660-Super-GPU_5WsMYuf.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Nvidia-GTX-1660-Super-GPU_PINCZYj.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Nvidia-GTX-1660-Super-GPU_R4qfshT.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Nvidia-GTX-1660-Super-GPU_TJXFtdj.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/Nvidia-GTX-1660-Super-GPU_gY4tJV3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/OIP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/baby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/backgroundimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_3Ybchhr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_G5VtuWM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_WZjwKdK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_bYOGvxi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_kGYfQ23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_qxQbDum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/corei5_13gen_wt0rMJJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/dodge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/product/pexels-pixabay-434259.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/profile/IMG_8352.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/media/python_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0002_student_is_naughty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0003_employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0004_remove_student_is_naughty_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0005_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0006_alter_car_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/0007_rename_name_car_carname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/home/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/practice/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/81murmTdjAL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/81murmTdjAL_wnBCgP0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/8281437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/IMG_8352.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/Intro-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/Nvidia-GTX-1660-Super-GPU.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/backgroundimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/bow-lake-canadian-3840x2160-12260.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/public/static/dark-hexagonal-background-with-gradient-color_79603-1409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/unusable_password_field.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-hidelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/unusable_password_field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="31QQRNPcKj9J3s4QF27nJV5ez1w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "C:/Users/Jinx/Desktop/Django/Full-stack crud app/Ecommerce_site/settings.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$/myproject/myapp/practice.py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject/myapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/myapp/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d33d402e-a9c4-4b38-982d-66fbe2791e27" name="Changes" comment="" />
+      <created>1755453807276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755453807276</updated>
+    </task>
+    <servers />
+  </component>
+</project>

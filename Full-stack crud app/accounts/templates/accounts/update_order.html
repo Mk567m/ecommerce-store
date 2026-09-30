@@ -1,0 +1,20 @@
+{%extends 'accounts/base.html'%}
+{%block content%}
+<title>{{order.product.name}}'s Order</title>
+
+<form action="" method="post">
+{% csrf_token %}
+<div>
+   <div>
+        <div>
+          {{form}}
+          <input class="btn btn-sm btn-outline-success" type="submit" name="submit">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}
