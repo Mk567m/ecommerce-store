@@ -16,8 +16,8 @@ Admin Panel: Full administrative control over all database entries.
 Backend: Django (Python)
 Database: SQLite (Development)
 Frontend: Html,Css,bootstrap
-📋 How to Install and Run
-Clone the repository:
+📋 How to Install and Run:
+-> Clone the repository
 
 git clone https://github.com/https://github.com/mk567m/ecommerce-store.git
 create virtual environment Python -m venv venv source venv/bin activate #on windows: venv/Scripts/activate
