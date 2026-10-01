@@ -1,5 +1,5 @@
 import email
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.forms import inlineformset_factory
 from accounts.models import *
 from accounts.forms import *
@@ -168,10 +168,11 @@ def logoutpage(request):
 
 @login_required(login_url='login')
 def forgotpassword(request,user_id):
-    all_users = User.objects.all()
+    
     user = User.objects.get(id=user_id)
     
     form = ForgotpasswordForm(initial=user)
+    
     if form.is_valid():
         form.save()
         messages.success(request,'Password changed Successfully!')

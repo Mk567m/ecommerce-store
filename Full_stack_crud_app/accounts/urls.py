@@ -15,6 +15,6 @@ urlpatterns = [
   path('update_order/<str:pk>',views.UpdateOrder,name='update_order'),
   path('update_customer/<str:pk>',views.UpdateCustomer,name="update_customer"),
   path('delete_customer/<str:pk>',views.DeleteCustomer,name="delete_customer"),
-  path('forgotpassword/<int:user_id>',views.forgotpassword,name='forgotpassword')
+  path('forgotpassword/',views.forgotpassword,name='forgotpassword')
 
 ]
